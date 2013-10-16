@@ -54,10 +54,10 @@ Packet_Generator
  * --------------------------------------------------
  * Running.
  * WARNING: sudo because this is a mac socket app, requires su in order to take info from kernel.
- * sudo ./NAME PATH_TO_SAVE NUM_OF_STREAMS PACKET_LEN DELAY_BET_PACKETS NUM_OF_PACKETS TIME_IN_FOR_NEXT STREAM  IN_INTERFACE OUT_INTERFACE xx:xx:xx:xx:xx:xx
+ * sudo ./NAME PATH_TO_SAVE NUM_OF_STREAMS PACKET_LEN NUM_OF_PACKETS DELAY_BET_PACKETS  TIME_INT_FOR_NEXT WAIT_TIME_FOR_NEXT_STREAM STREAM  IN_INTERFACE OUT_INTERFACE xx:xx:xx:xx:xx:xx
  * --------------------------------------------------
  * Example.
  * eg: gcc thread_receive.c thread_transmit.c realtester_time_v04.c functions.c -lpthread -lrt -D_REENTRANT -o pack_gen
- * eg: sudo ./pack_gen path 1 1500 1000 500000 100 40 p5p1 p5p1 00:11:22:33:44:55
+ * eg: sudo ./pack_gen path 1 1500 1000000 500 100 40 p5p1 p5p1 00:11:22:33:44:55
  * --------------------------------------------------
  */
