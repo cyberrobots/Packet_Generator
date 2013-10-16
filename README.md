@@ -47,7 +47,7 @@ Packet_Generator
  * Exports.
  * 1)	stream characteristics *_send_stats.txt
  * 2)	stream characteristic  *_recv_stats.txt
- * 3)	stream characteristic  *_time_analysis.txt
+ * 3)	stream characteristic  *_time_analysis.m (process this with matlab or octave)
  * --------------------------------------------------
  * Compilation.
  * gcc thread_receive.c thread_transmit.c realtester_time_v04.c functions.c -lpthread -lrt -D_REENTRANT -o NAME
