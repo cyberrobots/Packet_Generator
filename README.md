@@ -6,11 +6,12 @@ Packet_Generator
  *  Author		  : Sotiris Lyras
  *  Version		  : v04
  *  Email       : cyberrobots@gmail.com
+ *  Feel free contanting me.
  */
 
 
 /*
- * This is a MAC layer Packet generator which produces RAW packets with destination defined in dst_mac char vector. 
+ * This is a MAC layer "train/burst" Packet generator which produces RAW packets with destination defined in dst_mac char vector. 
  * It keeps statistics for packets latency and inter arrival time between two packets,
  * in order to collect data for Packet Delay Variation (PDV).
  */
